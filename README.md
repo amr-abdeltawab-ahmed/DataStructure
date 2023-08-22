@@ -1,6 +1,8 @@
 # DataStructure
 
 These Project include: 
+----------------------------------------------------------------------------------------------------
+
 1- Array-Based List with the following methods:
   o insert (elementType element) : void
   o  insertAt (elementType element, int index) : void
@@ -14,6 +16,10 @@ These Project include:
   o maxListSize (): int
   o clear (): void
   o print () : void
+
+
+-----------------------------
+
 
 2-  a Single Linked List with the following methods:
   o insertAtHead (elementType element) : void
@@ -32,6 +38,10 @@ These Project include:
   o linkedListSize () : int
   o clear (): void
   o print () : void
+
+
+  -----------------------------
+
   
 3- a Doubly Linked List with the following methods:
   o insertAtHead (elementType element) : void
@@ -54,6 +64,10 @@ These Project include:
   o forwardTraversal () : void //Print from head to tail
   o backwardTraversal () : void //Print from tail to head
 
+
+  -----------------------------
+
+  
 4- a Circular Linked List with the following methods:
   o insertAtHead (elementType element) : void
   o insertAtEnd (elementType element) : void
@@ -72,6 +86,10 @@ These Project include:
   o clear (): void
   o print () : void
 
+
+  -----------------------------
+
+  
 5- a Stack with the following methods:
   o push (elementType element) : void
   o pop () : elementType element //return the first element and remove it.
@@ -82,6 +100,9 @@ These Project include:
   o print () : void
 
 
+  -----------------------------
+
+  
 6- a Queue with the following methods:
   o enqueue (elementType element) : void
   o dequeue () : elementType element //return the first element and remove it.
@@ -110,6 +131,10 @@ A- By using the previous implemented Linked List, There are 2 Problems:
   If the Input is the head of the following Linked List: [0, 1, 0, 3, 0, 2, 2, 0],
   Then the Linked List will: [1, 3, 4]
 
+
+  -----------------------------
+
+  
 2. Merge K Sorted Linked Lists
    You have k linked-lists, each linked-list is sorted in ascending order.
    You need to merge all the given linked-lists into one sorted linked-list then return it.
@@ -142,6 +167,10 @@ B- By using the previous implemented Stack, There are 2 Problems:
   If the Input is: (A + B) * (C + D)
   Then the output will be: A B + C D + *
 
+
+  -----------------------------
+
+  
 2. Longest Valid Parentheses
    You will have a string containing just the characters '(' and ')' as an input.
    You have to return the length of the longest valid (well-formed)
@@ -169,12 +198,18 @@ C- By using the previous implemented Queue solve the following problems:
   Then the output will be: 1 10 11 100 101
 
 
+  -----------------------------
+
+
 2. Implement a Stack
    You need to design a stack that supports push and pop operations using the enqueue and dequeue operations of the queue.
    You can use one or more queue.
 
 
-4. Sorting a Queue
+  -----------------------------
+  
+
+3. Sorting a Queue
    You will have a queue with random integer elements as an input.
    You have to sort it.
    Example:
