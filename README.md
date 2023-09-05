@@ -1,6 +1,6 @@
 # DataStructure
 
-These Project include: 
+This Project include: 
 ----------------------------------------------------------------------------------------------------
 
 1- Array-Based List with the following methods:
